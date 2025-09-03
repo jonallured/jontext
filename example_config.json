@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "jontext": {
+      "command": "/Users/jon/.asdf/shims/ruby",
+      "args": [
+        "/Users/jon/code/jontext/server.rb"
+      ],
+      "env": {
+        "ASDF_RUBY_VERSION": "3.4.5"
+      }
+    }
+  }
+}
