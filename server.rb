@@ -4,8 +4,7 @@ require "mli"
 require_relative "tools/vanishing_box_tool"
 
 env = {
-  # "MLI_BASE_URL" => "https://app.jonallured.com/",
-  "MLI_BASE_URL" => "http://localhost:3007/",
+  "MLI_BASE_URL" => "https://app.jonallured.com/",
   "MLI_CLIENT_TOKEN" => File.read("/Users/jon/code/jontext/mli_client_token.txt").chomp
 }
 
