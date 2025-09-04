@@ -1,6 +1,7 @@
 require "fast_mcp"
 require "mli"
 
+require_relative "tools/books_tool"
 require_relative "tools/vanishing_box_tool"
 
 env = {
@@ -12,5 +13,5 @@ config = Mli::Config.new(env, [Faraday.default_adapter])
 Mli.reset(config)
 
 server = FastMcp::Server.new(name: "jontext", version: "0.0.1")
-server.register_tools(VanishingBoxTool)
+server.register_tools(BooksTool, VanishingBoxTool)
 server.start
